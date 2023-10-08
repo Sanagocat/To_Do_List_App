@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  /*background-image: url("galaxy.jpeg");*/
+}
+
+#loginButton {
+  width: 500px;
+  height: 100px;
+  font-size: 300%;
+  font-family: 'sans-serif', Arial, monospace;
+  background-color: blue;
+  color: orange;
+}
+
+.todolist_h1{
+  font-size: 300%;
+  text-align: center;
+  font-family: monospace;
+  color:black;
+
+}
+
+.todolistButton{
+  font-size: 90%;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+}
+
+.todolistButton:hover{
+  border-radius: 10px;
+  transform: translateY(1px);
+  box-shadow: 0 5px #999;
+}
+
+.todolistButton:active{
+  border-radius: 10px;
+  transform: translateY(4px);
+  box-shadow: 0 2px #999;
+}
+
+#worktodo{
+  width: 65%;
+  height: 50px;
+  font-size: 180%;
+  text-align: center;
+  font-family: monospace;
+  color: black;
+  border-radius: 10px;
+}
+
+#entertodo{
+  width: 25%;
+  height: 50px;
+  font-size: 180%;
+  text-align: center;
+  font-family: monospace;
+  color: blue;
+  border-radius: 10px;
+}
+
+li{
+  font-size: 200%;
+  text-align:left;
+  font-family:monospace;
+  color: black;
+}
+
+
+.userInfo {
+  font-size: 2.0rem;
+  /* 200% = 2.0em  */
+  font-family: 'monospace';
+  color: red;
+}
+
+.password {
+  font-family: 'Redacted Script';
+}
+
+.Heading1 {
+  text-align: center;
+  font-size: 200%;
+  font-family: Lucida Sans;
+  color: #4343d0;
+}
